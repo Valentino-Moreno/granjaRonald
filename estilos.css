@@ -102,22 +102,41 @@ header a:hover {
   background-color: rgb(63, 78, 13);
 }
 
-#nosotros .container{
-  padding: 200px 12px;
+#nosotros .container {
+  padding: 80px 20px;
+  margin: 0;
+  background-color: #fefae0;
 }
 
-#nosotros .container h2{
+#nosotros .container h2 {
   padding: 10px 0px;
 }
+
 #nosotros {
+  margin: 0;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  text-align:justify;
-  height: 60vh;
-  background-color: #E9EDC9;
-  padding: 0px 40px;
+  text-align: justify;
 }
 
+#nosotros p {
+  padding-bottom: 10px;
+}
+footer img {
+  width: 120px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #928942;
+}
+footer {
+  background-color: #5a6827;
+}
