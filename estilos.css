@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2.7em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.25em;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 1.25em;
+}
+a {
+  cursor: pointer;
+}
+body {
+  font-family: "Signika", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+header {
+  background-color: #fefae0;
+}
+
+header .logo {
+  margin: 0;
+  padding: 0px 30px;
+  width: 8em;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #9aaa66;
+}
+header a:hover {
+  color: #607226;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img/pexels-pixabay-533982.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #d8ee92;
+}
+
+#hero button {
+  margin: 20px;
+  padding: 10px 10px;
+  font-size: 1.75em;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #607226;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: #faedcd;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Signika", sans-serif;
+}
+
+#hero button:hover {
+  background-color: rgb(63, 78, 13);
+}
+
+#nosotros .container {
+  padding: 80px 20px;
+  margin: 0;
+  background-color: #fefae0;
+}
+
+#nosotros .container h2 {
+  padding: 10px 0px;
+}
+
+#nosotros {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+#nosotros p {
+  padding-bottom: 10px;
+}
+footer img {
+  width: 120px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+footer a {
+  text-decoration: none;
+  color: #928942;
+}
+footer {
+  background-color: #5a6827;
+}
+#productos .container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#productos p{
+  max-width: 90%;
+  text-align:center;
+  padding: 15px 0px;
+}
+
+#productos a{
+  margin:  0 auto;
+  text-decoration: none;
+  padding-top: 0px;
+  /* padding-left: 35px; */
+}
+
+
+#productos {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img/pexels-frans-van-heerden-625422.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ddb892;
+}
+
+#productos h2{
+  color:#e5c982
+}
+
+#productos .list{
+  display: flex;
+  margin: 0;
+  max-width: 88%;
+  align-items: center;
+  padding-right: 55px;
+  padding-top: 20px;
+}
+
+#productos .list li{
+  text-align: center;
+}
+
+#productos .list p{
+  display: flex;
+  flex-direction: column;
+}
+
+#productos button{
+  font-size: 2em;
+  font-family: "Signika", sans-serif;
+  background-color: #7d8b4f;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: #faedcd;
+  font-weight: bold;
+  padding: 6px 18px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#productos button:hover{
+  background-color: #545f2a;
+}
